@@ -41,7 +41,7 @@ public class TftpClient {
                 BufferedInputStream in = new BufferedInputStream(sock.getInputStream());
                 BufferedOutputStream out = new BufferedOutputStream(sock.getOutputStream());
 
-                while(!protocol.shouldTerminate()){ // DO WE NEED TO ADD READ >= 0 ?????????????????????????????????
+                while(!protocol.shouldTerminate()){ 
 
                     if (in.available() > 0){
                         read = in.read();

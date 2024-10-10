@@ -222,7 +222,6 @@ public class TftpProtocolClient implements MessagingProtocol<byte[]>  {
 
         else if (cmd.equals("WRQ")){
 
-            //wrqfileName = input[1];
             String file = "";
             
             for(int i = 1 ; i < input.length ; i ++){
