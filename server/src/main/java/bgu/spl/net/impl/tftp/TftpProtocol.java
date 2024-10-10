@@ -15,7 +15,7 @@ import java.util.Queue;
 import java.util.Vector;
 
 
-
+// for keeping up with which bytes were already sent by now
 class sendingFile{
 
     private int curr;
@@ -181,7 +181,6 @@ public class TftpProtocol implements BidiMessagingProtocol<byte[]>  {
             Vector<String> vec = new Vector<>();
 
             // extract files from directory
-            // File _directory = new File(directory);
             File _directory = new File(directory);
             File[] files = _directory.listFiles();
 

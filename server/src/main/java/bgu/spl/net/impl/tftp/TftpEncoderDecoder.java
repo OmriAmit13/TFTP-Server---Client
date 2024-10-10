@@ -104,7 +104,7 @@ public class TftpEncoderDecoder implements MessageEncoderDecoder<byte[]> {
             return output;
         }
         else 
-            return message; // maybe need to create a copy
+            return message; 
     }
 
     // Added

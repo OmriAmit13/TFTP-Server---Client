@@ -1,9 +1,6 @@
 package bgu.spl.net.impl.tftp;
 
-import java.io.IOException;
 import java.util.concurrent.ConcurrentHashMap;
-import bgu.spl.net.srv.BlockingConnectionHandler;
-
 import bgu.spl.net.srv.Connections;
 import bgu.spl.net.srv.ConnectionHandler;
 
